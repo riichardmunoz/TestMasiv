@@ -46,8 +46,7 @@ namespace TestCCMasiv
             services.AddScoped<IBetRepository, BetRepository>();
             services.AddScoped<IBetService, BetService>();
 
-            /*services.AddDbContext<TestCCMasivContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("TestCCMasivContext")));*/
+            //Prueba2
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
